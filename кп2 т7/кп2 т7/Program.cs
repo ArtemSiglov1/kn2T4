@@ -58,6 +58,21 @@
 //string s = Console.ReadLine();
 //string f=n+" "+s;
 //Console.WriteLine(f);
+//7
+Console.Write("Введите предложение:");
+string st = Console.ReadLine();
 
+int i = 0, l = 0;
 
+for (l = 0; l != st.Length; l++)
+
+{
+
+    if (st[l] == (' '))
+    {
+        i++;
+    }
+
+}
+Console.WriteLine($"Кол-во слов в предложении:{i += 1}");
 Console.ReadKey();
