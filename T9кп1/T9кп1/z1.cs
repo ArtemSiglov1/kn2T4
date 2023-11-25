@@ -22,7 +22,7 @@ namespace T9кп1
 
             list.Add(10);
 
-            Watch(list);
+            z2.Show(list);
 
             Console.WriteLine($"Кол-во элементов:{list.Count()}");
 
@@ -30,45 +30,33 @@ namespace T9кп1
 
             list.Remove(10);
 
-            Watch(list);
+            z2.Show(list);         
 
             list.RemoveAt(2);
 
-            Watch(list);
+            z2.Show(list);
 
             Find25(list);
 
             list.Insert(0, 500);
 
-            Watch(list);
+            z2.Show(list);
 
 
 
 
         }
-        public static void Watch(List<int> ints)
+        
+
+        
+
+        public static void Find25(List<int> list)
 
         {
 
             Console.WriteLine($"\n");
 
-            foreach (int i in ints)
-
-            {
-
-                Console.WriteLine($"{i}");
-
-            }
-
-        }
-
-        public static void Find25(List<int> ints)
-
-        {
-
-            Console.WriteLine($"\n");
-
-            var contains25 = ints.Contains(25);
+            var contains25 = list.Contains(25);
 
             Console.WriteLine($"{contains25}");
         }

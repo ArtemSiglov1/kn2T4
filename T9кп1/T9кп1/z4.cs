@@ -19,7 +19,7 @@ namespace T9кп1
             z2.Show(list);
             Avr(list);
         }
-        public static void Avr(List<int> list)
+         static void Avr(List<int> list)
         {
             int s = 0;
             for (int i = 0; i < list.Count; i++)

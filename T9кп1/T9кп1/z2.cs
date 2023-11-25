@@ -28,7 +28,7 @@ namespace T9кп1
                 Console.WriteLine(i);
             }
         }
-        public static void Del(List<int> list )
+         static void Del(List<int> list )
         {
             for (int i = 0; i < list.Count; i++)
             {

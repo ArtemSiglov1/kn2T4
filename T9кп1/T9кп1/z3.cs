@@ -21,7 +21,7 @@ namespace T9кп1
             z2.Show(list);
         }
         
-        public static void Del(List<int> list)
+         static void Del(List<int> list)
         {
             Console.WriteLine("Введите n=");
             int n=int.Parse(Console.ReadLine());
