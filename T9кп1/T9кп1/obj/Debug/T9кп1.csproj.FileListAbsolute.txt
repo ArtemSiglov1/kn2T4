@@ -1,0 +1,7 @@
+D:\VS\T9кп1\T9кп1\bin\Debug\T9кп1.exe.config
+D:\VS\T9кп1\T9кп1\bin\Debug\T9кп1.exe
+D:\VS\T9кп1\T9кп1\bin\Debug\T9кп1.pdb
+D:\VS\T9кп1\T9кп1\obj\Debug\T9кп1.csproj.AssemblyReference.cache
+D:\VS\T9кп1\T9кп1\obj\Debug\T9кп1.csproj.CoreCompileInputs.cache
+D:\VS\T9кп1\T9кп1\obj\Debug\T9кп1.exe
+D:\VS\T9кп1\T9кп1\obj\Debug\T9кп1.pdb
