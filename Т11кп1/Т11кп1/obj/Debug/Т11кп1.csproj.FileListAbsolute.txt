@@ -1,0 +1,7 @@
+D:\VS\Т11кп1\Т11кп1\bin\Debug\Т11кп1.exe.config
+D:\VS\Т11кп1\Т11кп1\bin\Debug\Т11кп1.exe
+D:\VS\Т11кп1\Т11кп1\bin\Debug\Т11кп1.pdb
+D:\VS\Т11кп1\Т11кп1\obj\Debug\Т11кп1.csproj.AssemblyReference.cache
+D:\VS\Т11кп1\Т11кп1\obj\Debug\Т11кп1.csproj.CoreCompileInputs.cache
+D:\VS\Т11кп1\Т11кп1\obj\Debug\Т11кп1.exe
+D:\VS\Т11кп1\Т11кп1\obj\Debug\Т11кп1.pdb
