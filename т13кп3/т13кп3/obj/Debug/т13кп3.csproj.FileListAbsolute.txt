@@ -1,0 +1,7 @@
+C:\Users\Home\source\repos\т13кп3\т13кп3\bin\Debug\т13кп3.exe.config
+C:\Users\Home\source\repos\т13кп3\т13кп3\bin\Debug\т13кп3.exe
+C:\Users\Home\source\repos\т13кп3\т13кп3\bin\Debug\т13кп3.pdb
+C:\Users\Home\source\repos\т13кп3\т13кп3\obj\Debug\т13кп3.csproj.AssemblyReference.cache
+C:\Users\Home\source\repos\т13кп3\т13кп3\obj\Debug\т13кп3.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\т13кп3\т13кп3\obj\Debug\т13кп3.exe
+C:\Users\Home\source\repos\т13кп3\т13кп3\obj\Debug\т13кп3.pdb
