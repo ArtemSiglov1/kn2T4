@@ -1,0 +1,7 @@
+C:\Users\Home\source\repos\т4кп3\т4кп3\bin\Debug\т4кп3.exe.config
+C:\Users\Home\source\repos\т4кп3\т4кп3\bin\Debug\т4кп3.exe
+C:\Users\Home\source\repos\т4кп3\т4кп3\bin\Debug\т4кп3.pdb
+C:\Users\Home\source\repos\т4кп3\т4кп3\obj\Debug\т4кп3.csproj.AssemblyReference.cache
+C:\Users\Home\source\repos\т4кп3\т4кп3\obj\Debug\т4кп3.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\т4кп3\т4кп3\obj\Debug\т4кп3.exe
+C:\Users\Home\source\repos\т4кп3\т4кп3\obj\Debug\т4кп3.pdb
