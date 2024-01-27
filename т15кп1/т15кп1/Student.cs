@@ -9,9 +9,21 @@ namespace т15кп1
 {
     internal class Student
     {
+        /// <summary>
+        /// поля описывающие ФИО и пол учинека
+        /// </summary>
         string surname, name, otchestvo, pol;
+        /// <summary>
+        /// поле описывающее дату рождения
+        /// </summary>
         int date;
+        /// <summary>
+        /// поля описывающие счетчик
+        /// </summary>
         public static int countm, countd;
+        /// <summary>
+        /// свойства для поля фамилии
+        /// </summary>
         public string Surname
         {
             get
@@ -21,6 +33,9 @@ namespace т15кп1
             }
             set { surname = value; }
         }
+        /// <summary>
+        /// свойство для поля имени
+        /// </summary>
         public string Name
         {
             get
@@ -30,6 +45,9 @@ namespace т15кп1
             }
             set { name = value; }
         }
+        /// <summary>
+        /// свойство для поля отчество
+        /// </summary>
         public string Otchestvo
         {
             get
@@ -39,23 +57,43 @@ namespace т15кп1
             }
             set { otchestvo = value; }
         }
+        /// <summary>
+        /// свойство для поля пола
+        /// </summary>
         public string Pol
         {
             get { return pol; }
             set { pol = value; }
         }
+        /// <summary>
+        /// свойство для поля даты рождения
+        /// </summary>
         public int Date
         {
             get { return date; }
             set { date = value; }
         }
+        /// <summary>
+        /// конструктор по умолчанию
+        /// </summary>
 
         public Student() { }
+        /// <summary>
+        /// статичиский конструктор для инициализации счетчиков
+        /// </summary>
         static Student()
         {
             countm = 0;
             countd = 0;
         }
+        /// <summary>
+        /// конструктор с параметрами 
+        /// </summary>
+        /// <param name="surname">фамилия</param>
+        /// <param name="name">имя</param>
+        /// <param name="otchestvo">отчество</param>
+        /// <param name="pol">пол</param>
+        /// <param name="date">дата рождения</param>
         public Student(string surname, string name, string otchestvo,string pol, int date)
         {
             this.Surname = surname;
@@ -74,6 +112,10 @@ namespace т15кп1
             
 
         }
+        /// <summary>
+        /// метод для вывода информации о студентах
+        /// </summary>
+        /// <returns>ФИО,пол,дата рождения</returns>
         public override string ToString()
         {
             return $"Surname-{surname}\nName-{name}\nOtchestvo-{otchestvo}\nPol-{pol}\nDate-{date}\n";
