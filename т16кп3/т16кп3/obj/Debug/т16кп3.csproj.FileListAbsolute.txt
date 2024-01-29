@@ -1,0 +1,7 @@
+E:\Макаренко\т16кп3\т16кп3\bin\Debug\т16кп3.exe.config
+E:\Макаренко\т16кп3\т16кп3\bin\Debug\т16кп3.exe
+E:\Макаренко\т16кп3\т16кп3\bin\Debug\т16кп3.pdb
+E:\Макаренко\т16кп3\т16кп3\obj\Debug\т16кп3.csproj.AssemblyReference.cache
+E:\Макаренко\т16кп3\т16кп3\obj\Debug\т16кп3.csproj.CoreCompileInputs.cache
+E:\Макаренко\т16кп3\т16кп3\obj\Debug\т16кп3.exe
+E:\Макаренко\т16кп3\т16кп3\obj\Debug\т16кп3.pdb
