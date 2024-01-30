@@ -16,7 +16,7 @@ namespace т15кп1
         /// <summary>
         /// поле описывающее дату рождения
         /// </summary>
-        int date;
+        DateTime date;
         /// <summary>
         /// поля описывающие счетчик
         /// </summary>
@@ -68,7 +68,7 @@ namespace т15кп1
         /// <summary>
         /// свойство для поля даты рождения
         /// </summary>
-        public int Date
+        public DateTime Date
         {
             get { return date; }
             set { date = value; }
@@ -94,7 +94,7 @@ namespace т15кп1
         /// <param name="otchestvo">отчество</param>
         /// <param name="pol">пол</param>
         /// <param name="date">дата рождения</param>
-        public Student(string surname, string name, string otchestvo,string pol, int date)
+        public Student(string surname, string name, string otchestvo,string pol, DateTime date)
         {
             this.Surname = surname;
             this.Name = name;

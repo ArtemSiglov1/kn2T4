@@ -10,19 +10,19 @@ namespace т15кп1
     {
         static void Main(string[] args)
         {
-            //object[] students = new Student[2];
+            object[] students = new Student[2];
 
-            //for (int i = 0; i < students.Length; i++)
-            //{
-            //    string surname = Console.ReadLine(), name = Console.ReadLine(), otchestvo = Console.ReadLine(), pol = Console.ReadLine();
-            //    int date = int.Parse(Console.ReadLine());
-            //    students[i] = new Student(surname, name, otchestvo, pol, date);
-            //}
-            //foreach (var student in students)
-            //{
-            //    Console.WriteLine(student.ToString());
-            //}
-            //Console.WriteLine($"men-{Student.countm}\twomen-{Student.countd}");
+            for (int i = 0; i < students.Length; i++)
+            {
+                string surname = Console.ReadLine(), name = Console.ReadLine(), otchestvo = Console.ReadLine(), pol = Console.ReadLine();
+                DateTime date = DateTime.Parse(Console.ReadLine());
+                students[i] = new Student(surname, name, otchestvo, pol, date);
+            }
+            foreach (var student in students)
+            {
+                Console.WriteLine(student.ToString());
+            }
+            Console.WriteLine($"men-{Student.countm}\twomen-{Student.countd}");
             Sportiki[]sportik=new Sportiki[2];
             for (int i=0; i<sportik.Length; i++) 
             {
