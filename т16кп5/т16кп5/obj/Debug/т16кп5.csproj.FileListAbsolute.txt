@@ -1,0 +1,7 @@
+E:\Данил\т16кп5\т16кп5\bin\Debug\т16кп5.exe.config
+E:\Данил\т16кп5\т16кп5\bin\Debug\т16кп5.exe
+E:\Данил\т16кп5\т16кп5\bin\Debug\т16кп5.pdb
+E:\Данил\т16кп5\т16кп5\obj\Debug\т16кп5.csproj.AssemblyReference.cache
+E:\Данил\т16кп5\т16кп5\obj\Debug\т16кп5.csproj.CoreCompileInputs.cache
+E:\Данил\т16кп5\т16кп5\obj\Debug\т16кп5.exe
+E:\Данил\т16кп5\т16кп5\obj\Debug\т16кп5.pdb
