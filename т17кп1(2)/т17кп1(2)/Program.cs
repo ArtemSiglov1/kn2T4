@@ -10,9 +10,16 @@ namespace т17кп1_2_
     {
         static void Main(string[] args)
         {
-            Press press=new Press();
+            Press press=new Press(10,"fff",200);
             press.Output();
-            Magazine magazine=new Magazine(100,"df",10,2);
+            Console.WriteLine(press.Cost());
+            Magazine magazine=new Magazine(100,"df",10,1);
+            magazine.Output();
+            Console.WriteLine(magazine.Cost());
+            Press press1 = new Magazine(100, "ggg", 10, 1);
+            press1.Output();
+            Console.WriteLine(press1.Cost());
+            Console.Read();
         }
     }
 }

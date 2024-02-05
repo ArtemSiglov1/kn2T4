@@ -13,8 +13,6 @@ namespace т17кп1_2_
         public string Quality { get => quality; set => quality = value; }
         public Magazine(int copies,string name,int price,int i):base(copies,name,price)
         {
-            Console.WriteLine("Введите уровень качества 1-high 2-midle 3-low");
-             i = int.Parse(Console.ReadLine());
             switch (i)
             {
                 case 1: quality = "high"; break;
@@ -24,25 +22,26 @@ namespace т17кп1_2_
 
             }
         }
-        new public void Cost()
+        new public double Cost()
         {
            if (quality =="high")
             {
-                Console.WriteLine(base.Cost() + (base.Cost() * 0.1));
+                return base.Cost() + (base.Cost() * 0.1);
             }
            else if (quality == "midle")
             {
-                Console.WriteLine(base.Cost());
+               return (base.Cost());
             }
            else if(quality == "low")
             {
-                Console.WriteLine(base.Cost() - (base.Cost() * 0.1));
+                return(base.Cost() - (base.Cost() * 0.1));
             }
+            else { return 0; }
         }
         new public void Output()
         {
             base.Output();
-            Console.WriteLine(quality);
+            Console.Write($"качество-{quality}\n");
         }
     }
 }

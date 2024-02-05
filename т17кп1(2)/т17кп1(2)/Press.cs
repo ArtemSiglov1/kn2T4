@@ -29,7 +29,7 @@ namespace т17кп1_2_
         }
         public void Output()
         {
-            Console.WriteLine($"{copies}\n {name}\n {price}\n");
+            Console.Write($"кол-во копий-{copies}\nназвание-{name}\nцена-{price}\n");
         }
     }
 }
