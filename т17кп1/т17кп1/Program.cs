@@ -24,6 +24,16 @@ namespace т17кп1
             emp2.Print();
             Student student = new Student(16, "atrem", "siglov", DateTime.Now, 2);
             student.Print();
+            
+            
+            List<Person> persons = new List<Person>();
+            persons.Add(new Person("Игорь","Ливанов", 32));
+            persons.Add(new Employee("Андрей", "Евсеев", 21, "МГУ","лаборант"));
+            persons.Add(new Student("Кристина","Любушкина",19, DateTime.Now, 5));
+            foreach (Person p in persons)
+            p.Print();
+            
+            
             Console.ReadLine();
 
         }
