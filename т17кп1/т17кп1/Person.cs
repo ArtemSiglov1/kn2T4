@@ -28,7 +28,11 @@ namespace т17кп1
         {
             this.surname = surname; 
         }
-        public void Print()
+        //public void Print()
+        //{
+        //    Console.WriteLine($"{age} {name} {surname} ");
+        //}
+        public virtual void Print()
         {
             Console.WriteLine($"{age} {name} {surname} ");
         }

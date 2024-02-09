@@ -12,3 +12,10 @@ C:\Users\Home\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.csproj.AssemblyRef
 C:\Users\Home\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.csproj.CoreCompileInputs.cache
 C:\Users\Home\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.exe
 C:\Users\Home\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.pdb
+C:\Users\Kab-35-6\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.csproj.AssemblyReference.cache
+C:\Users\Kab-35-6\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.csproj.CoreCompileInputs.cache
+C:\Users\Kab-35-6\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.exe
+C:\Users\Kab-35-6\Desktop\т17кп1\т17кп1\obj\Debug\т17кп1.pdb
+C:\Users\Kab-35-6\Desktop\т17кп1\т17кп1\bin\Debug\т17кп1.exe.config
+C:\Users\Kab-35-6\Desktop\т17кп1\т17кп1\bin\Debug\т17кп1.exe
+C:\Users\Kab-35-6\Desktop\т17кп1\т17кп1\bin\Debug\т17кп1.pdb
