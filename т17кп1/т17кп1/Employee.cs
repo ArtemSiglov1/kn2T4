@@ -6,34 +6,47 @@ using System.Threading.Tasks;
 
 namespace т17кп1
 {
+    /// <summary>
+    /// наследуемый класс описывающий работника
+    /// </summary>
     internal class Employee:Person
     {
+        /// <summary>
+        /// поле описывающее компанию
+        /// </summary>
         string company;
+        /// <summary>
+        /// поле описывающее должность
+        /// </summary>
         string job;
-
+        /// <summary>
+        /// свойство для поля компании
+        /// </summary>
         public string Company { get => company; set => company = value; }
+        /// <summary>
+        /// свойство для поля должности
+        /// </summary>
         public string Job { get => job; set => job = value; }
-        public Employee() { }
+        /// <summary>
+        /// конструткор с параметрами 
+        /// </summary>
+        /// <param name="age">возраст</param>
+        /// <param name="name">имя</param>
+        /// <param name="surname">фамилия</param>
+        /// <param name="company">компания</param>
+        /// <param name="job">должность</param>
         public Employee(int age,string name,string surname,string company, string job):base(age,name,surname)
         {
             this.company = company;
             this.job = job;
         }
-
-        public override void Print()
+        /// <summary>
+        /// метод для вывода информации об объекте
+        /// </summary>
+        new public void Print()
         {
-             Console.WriteLine($"{Age} {Name} {Surname} {company} {job}");
-        }
-        public static Employee Enter()
-        {
-            Console.Clear();
-            int age = int.Parse(Console.ReadLine());
-            string name = Console.ReadLine();
-            string surname = Console.ReadLine();
-            
-            string company = Console.ReadLine();
-            string job = Console.ReadLine();
-            return new Employee(age, name, surname, company, job);
+            base.Print();
+            Console.WriteLine($"{company} {job}");
         }
     }
 }

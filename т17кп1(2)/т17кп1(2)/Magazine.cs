@@ -6,11 +6,26 @@ using System.Threading.Tasks;
 
 namespace т17кп1_2_
 {
+    /// <summary>
+    /// класс описывающий журнал
+    /// </summary>
     internal class Magazine:Press
     {
+        /// <summary>
+        /// поле описывающее качество
+        /// </summary>
         string quality;
-
+        /// <summary>
+        /// свойтсво для поля качества
+        /// </summary>
         public string Quality { get => quality; set => quality = value; }
+        /// <summary>
+        /// конструктор с параметрами
+        /// </summary>
+        /// <param name="copies">копии</param>
+        /// <param name="name">название</param>
+        /// <param name="price">цена</param>
+        /// <param name="i">качество</param>
         public Magazine(int copies,string name,int price,int i):base(copies,name,price)
         {
             switch (i)
@@ -22,6 +37,10 @@ namespace т17кп1_2_
 
             }
         }
+        /// <summary>
+        /// метод для подсчета цены тиража с учетом качества
+        /// </summary>
+        /// <returns>цена тиража по отношению к качеству</returns>
         new public double Cost()
         {
            if (quality =="high")
@@ -38,6 +57,9 @@ namespace т17кп1_2_
             }
             else { return 0; }
         }
+        /// <summary>
+        /// метод для вывода информации об объекте
+        /// </summary>
         new public void Output()
         {
             base.Output();
