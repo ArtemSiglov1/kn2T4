@@ -1,0 +1,7 @@
+D:\шурдук\Т17 кп3\bin\Debug\Т17 кп3.exe.config
+D:\шурдук\Т17 кп3\bin\Debug\Т17 кп3.exe
+D:\шурдук\Т17 кп3\bin\Debug\Т17 кп3.pdb
+D:\шурдук\Т17 кп3\obj\Debug\Т17 кп3.csproj.AssemblyReference.cache
+D:\шурдук\Т17 кп3\obj\Debug\Т17 кп3.csproj.CoreCompileInputs.cache
+D:\шурдук\Т17 кп3\obj\Debug\Т17 кп3.exe
+D:\шурдук\Т17 кп3\obj\Debug\Т17 кп3.pdb
