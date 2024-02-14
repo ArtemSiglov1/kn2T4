@@ -40,7 +40,7 @@ namespace т17кп2_2_
         /// <returns>метод для вывода информации об объекете базового класса и цена путишествия</returns>
         public override string Output()
         {
-            return$"{base.Output()}{priceTrip}\n";
+            return$"{base.Output()}Trip price-{priceTrip}\n";
         }
         /// <summary>
         /// метод для рассчета общей стоимости с учетом цены путешествия
@@ -49,6 +49,23 @@ namespace т17кп2_2_
         public override int AllPrice()
         {
             return (Price+priceTrip)*KvoMest;
+        }
+        /// <summary>
+        /// Метод для ввода информации об объекте
+        /// </summary>
+        /// <returns>Конструктор с параметрами</returns>
+        new public static Bus Enter()
+        {
+
+            Console.WriteLine("Введите марку:");
+            string marka = Console.ReadLine();
+            Console.WriteLine("Введите Количество мест:");
+            int kvoMest = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите цену за место:");
+            int price = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите цену за путешествие");
+            int priceTrip = int.Parse(Console.ReadLine());
+            return new TurBus(marka, kvoMest, price,priceTrip);
         }
     }
 }

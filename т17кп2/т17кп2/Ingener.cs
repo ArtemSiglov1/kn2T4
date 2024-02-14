@@ -41,7 +41,7 @@ namespace т17кп2
         public override void Print()
         {
             base.Print();
-            Console.WriteLine(N);
+            Console.WriteLine($"Proects-{n}");
         }
         /// <summary>
         /// метод для рассчета дохода с учетом количетсва проекта
@@ -49,7 +49,29 @@ namespace т17кп2
         /// <returns></returns>
         public override int Doxod()
         {
-           return base.Doxod()*(n/10);
+            if (n > 10)
+            {
+                return base.Doxod() * (n / 10);
+            }
+            else { return base.Doxod(); }
+        }
+        /// <summary>
+        /// Метод для ввода информации об объекте
+        /// </summary>
+        /// <returns>Конструктор с параметрами</returns>
+       new public static Ingener Enter()
+        {
+            Console.WriteLine("Введите фамилию:");
+            string surname = Console.ReadLine();
+            Console.WriteLine("Введите имя:"); 
+            string name= Console.ReadLine();
+            Console.WriteLine("Введите мин зп:");
+            int p = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите коэф повышения:");
+            int k = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите количество проектов:");
+            int n=int.Parse(Console.ReadLine());
+            return new Ingener(surname, name, p, k, n);
         }
         
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,7 +59,7 @@ namespace т17кп2_2_
         /// <returns>значение полей марка, кол-во мест, цена </returns>
         public virtual string Output()
         {
-            return $"{marka}\n{kvoMest}\n{price}\n";
+            return $"Марка-{marka}\nКол-во мест-{kvoMest}\nЦена за место-{price}\n";
         }
         /// <summary>
         /// метод для рассчета стоимости за все места
@@ -67,6 +68,22 @@ namespace т17кп2_2_
         public virtual int AllPrice()
         {
             return price*KvoMest;
+        }
+        /// <summary>
+        /// Метод для ввода информации об объекте
+        /// </summary>
+        /// <returns>Конструктор с параметрами</returns>
+        public static Bus Enter()
+        {
+
+            Console.WriteLine("Введите марку:");
+            string marka = Console.ReadLine();
+            Console.WriteLine("Введите количество мест:");
+            int kvoMest = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите цену за место:");
+            int price = int.Parse(Console.ReadLine());
+
+            return new Bus(marka, kvoMest, price);
         }
     }
 }

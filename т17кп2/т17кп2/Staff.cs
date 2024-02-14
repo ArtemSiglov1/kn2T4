@@ -59,7 +59,7 @@ namespace т17кп2
         /// </summary>
         virtual public void Print()
         {
-            Console.Write($"{surname}\n{name}\n{p}\n{k}\n"); 
+            Console.Write($"Surname-{surname}\nName-{name}\nMinZp-{p}\nKoef-{k}\n"); 
         }
         /// <summary>
         /// метод для рассчета дохода 
@@ -69,6 +69,24 @@ namespace т17кп2
         {
             return k*p;
         }
-      
+        /// <summary>
+        /// Метод для ввода информации об объекте
+        /// </summary>
+        /// <returns>Конструктор с параметрами</returns>
+        public static Staff Enter()
+        {
+            
+            Console.WriteLine("Введите фамилию:");
+            string surname = Console.ReadLine();
+            Console.WriteLine("Введите имя:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Введите мин зп:");
+            int p = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите коэф повышения:");
+            int k = int.Parse(Console.ReadLine());
+           
+            return new Staff(surname, name, p, k);
+        }
+
     }
 }
