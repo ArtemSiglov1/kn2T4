@@ -1,0 +1,7 @@
+\\serv31\Для сохранения работ\213 группа\Системное программирование\Градинар\abstract_test\bin\Debug\abstract_test.exe.config
+\\serv31\Для сохранения работ\213 группа\Системное программирование\Градинар\abstract_test\bin\Debug\abstract_test.exe
+\\serv31\Для сохранения работ\213 группа\Системное программирование\Градинар\abstract_test\bin\Debug\abstract_test.pdb
+\\serv31\Для сохранения работ\213 группа\Системное программирование\Градинар\abstract_test\obj\Debug\abstract_test.csproj.AssemblyReference.cache
+\\serv31\Для сохранения работ\213 группа\Системное программирование\Градинар\abstract_test\obj\Debug\abstract_test.csproj.CoreCompileInputs.cache
+\\serv31\Для сохранения работ\213 группа\Системное программирование\Градинар\abstract_test\obj\Debug\abstract_test.exe
+\\serv31\Для сохранения работ\213 группа\Системное программирование\Градинар\abstract_test\obj\Debug\abstract_test.pdb
