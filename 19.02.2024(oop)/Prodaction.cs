@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace _19._02._2024_oop_
 {
-    internal class Prodaction
+    abstract class Prodaction
     {
+        public string Name { get; set; }
+        public abstract int AllPrice();
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }
