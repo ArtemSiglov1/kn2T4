@@ -7,18 +7,22 @@ using System.Threading.Tasks;
 namespace _01._03._2024
 {
     /// <summary>
-    /// класс описывающий абитуриента 
+    /// класс описывающий студента 
     /// </summary>
-    internal class Abiturient:Person
+    internal class Student:Person
     {
         /// <summary>
-        /// свойство факультета 
+        /// свойство факультета
         /// </summary>
         public string Facult {  get; set; }
         /// <summary>
+        /// свойство курса
+        /// </summary>
+        public int Kurs {  get; set; }
+        /// <summary>
         /// конструктор по умолчанию 
         /// </summary>
-        public Abiturient() { }
+        public Student() { }
         /// <summary>
         /// конструктор с параметрами 
         /// </summary>
@@ -26,9 +30,11 @@ namespace _01._03._2024
         /// <param name="surname">фамилия</param>
         /// <param name="dateB">дата рождения</param>
         /// <param name="facult">факультет</param>
-        public Abiturient(string name,string surname,DateTime dateB,string facult):base(name, surname, dateB)
+        /// <param name="kurs">курс</param>
+        public Student(string name,string surname, DateTime dateB,string facult, int kurs):base(name,surname,dateB)
         {
             Facult = facult;
+            Kurs = kurs;
         }
         /// <summary>
         /// метод для определения возраста человека
@@ -36,14 +42,14 @@ namespace _01._03._2024
         /// <returns>возраст человека</returns>
         public override int Age()
         {
-           DateTime dateNow=DateTime.Now;
-            if (dateNow.Month<DateB.Month)
+            DateTime dateNow = DateTime.Now;
+            if (dateNow.Month < DateB.Month)
             {
-                return dateNow.Year-DateB.Year-1;
+                return dateNow.Year - DateB.Year - 1;
             }
-            else if(dateNow.Month==DateB.Month)
+            else if (dateNow.Month == DateB.Month)
             {
-                if (dateNow.Day<DateB.Day)
+                if (dateNow.Day < DateB.Day)
                 {
                     return dateNow.Year - DateB.Year - 1;
                 }
@@ -51,7 +57,7 @@ namespace _01._03._2024
                 {
                     return dateNow.Year - DateB.Year;
                 }
-                
+
             }
             else { return dateNow.Year - DateB.Year; }
         }
@@ -61,13 +67,13 @@ namespace _01._03._2024
         /// <returns>поля класса</returns>
         public override string ToString()
         {
-            return $"{base.ToString()}Факультет:{Facult}";
+            return $"{base.ToString()}Факультет:{Facult}\nКурс:{Kurs}";
         }
         /// <summary>
         /// метод для ввода информации об объекте
         /// </summary>
         /// <returns>конструктор с параметрами</returns>
-        public static Abiturient Init()
+        public static Student Init()
         {
             try
             {
@@ -79,7 +85,9 @@ namespace _01._03._2024
                 DateTime dateB = DateTime.Parse(Console.ReadLine());
                 Console.Write("Факультет:");
                 string facult = Console.ReadLine();
-                return new Abiturient(name, surname, dateB, facult);
+                Console.Write("Курс:");
+                int kurs = int.Parse(Console.ReadLine());
+                return new Student(name, surname, dateB, facult, kurs);
             }
             catch { return Init(); }
         }
