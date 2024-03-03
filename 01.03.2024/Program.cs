@@ -34,7 +34,7 @@ namespace _01._03._2024
                 {
                     if (elem.Age() > 18 && elem.Age() < 35)
                     {
-                        Console.WriteLine("Люди попадающие в заданый возраст\n" + elem.ToString());
+                        Console.WriteLine("\nЛюди попадающие в заданый возраст\n" + elem.ToString());
                     }
                 }
             }
