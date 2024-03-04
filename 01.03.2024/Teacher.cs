@@ -42,38 +42,14 @@ namespace _01._03._2024
             Position = position;
             Experience = experience;
         }
-        /// <summary>
-        /// метод для определения возраста человека
-        /// </summary>
-        /// <returns>возраст человека</returns>
-        public override int Age()
-        {
-            DateTime dateNow = DateTime.Now;
-            if (dateNow.Month < DateB.Month)
-            {
-                return dateNow.Year - DateB.Year - 1;
-            }
-            else if (dateNow.Month == DateB.Month)
-            {
-                if (dateNow.Day < DateB.Day)
-                {
-                    return dateNow.Year - DateB.Year - 1;
-                }
-                else
-                {
-                    return dateNow.Year - DateB.Year;
-                }
-
-            }
-            else { return dateNow.Year - DateB.Year; }
-        }
+        
         /// <summary>
         /// Метод для вывода информации 
         /// </summary>
         /// <returns>поля класса</returns>
         public override string ToString()
         {
-            return $"{base.ToString()}Факультет:{Facult}\nДолжность:{Position}\nСтаж:{Experience}";
+            return $"{base.ToString()}Факультет:{Facult}\nДолжность:{Position}\nСтаж:{Experience}\nВозраст:{Age()}";
         }
         /// <summary>
         /// метод для ввода информации об объекте

@@ -23,16 +23,21 @@ namespace _01._03._2024
                         case "a": Abiturient abiturient = new Abiturient(); person.Add(Abiturient.Init()); break;
                         case "s": Student student = new Student(); person.Add(Student.Init()); break;
                         case "t": Teacher teacher = new Teacher(); person.Add(Teacher.Init()); break;
-                        default: Console.Clear();flag= false; break;
+                        case "q":flag = false;break;
+                        default: Console.WriteLine("Данные введены не верно"); break;
                     }
                 }
                 foreach (var elem in person)
                 {
                     Console.WriteLine(elem.ToString());
                 }
+                Console.WriteLine("Введите минимальный возраст:");
+                int minAge = int.Parse(Console.ReadLine());
+                Console.WriteLine("Введите максимальный возраст:");
+                int maxAge=int.Parse(Console.ReadLine());
                 foreach (var elem in person)
                 {
-                    if (elem.Age() > 18 && elem.Age() < 35)
+                    if (elem.Age() > minAge && elem.Age() <maxAge)
                     {
                         Console.WriteLine("\nЛюди попадающие в заданый возраст\n" + elem.ToString());
                     }

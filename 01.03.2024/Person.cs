@@ -52,6 +52,26 @@ namespace _01._03._2024
         /// метод для определения возраста человека
         /// </summary>
         /// <returns>возраст человека</returns>
-        public abstract int Age();
+        public int Age()
+        {
+            DateTime dateNow = DateTime.Now;
+            if (dateNow.Month < DateB.Month)
+            {
+                return dateNow.Year - DateB.Year - 1;
+            }
+            else if (dateNow.Month == DateB.Month)
+            {
+                if (dateNow.Day < DateB.Day)
+                {
+                    return dateNow.Year - DateB.Year - 1;
+                }
+                else
+                {
+                    return dateNow.Year - DateB.Year;
+                }
+
+            }
+            else { return dateNow.Year - DateB.Year; }
+        }
     }
 }
