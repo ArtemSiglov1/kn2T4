@@ -5,6 +5,14 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.03.2024", "05.03.2024.csproj", "{44BEB4D3-2F1D-4BA3-87F2-8FEBFD20B194}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "абстрактный класс и потомки", "абстрактный класс и потомки", "{FFF6DF4A-F37D-46DA-B44A-B19684A19CEC}"
+	ProjectSection(SolutionItems) = preProject
+		Bicycle.cs = Bicycle.cs
+		Car.cs = Car.cs
+		Lorry.cs = Lorry.cs
+		Vehicle.cs = Vehicle.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
