@@ -1,0 +1,7 @@
+C:\Users\kab31\OneDrive\Рабочий стол\Тема 19 кп1\bin\Debug\Тема 19 кп1.exe.config
+C:\Users\kab31\OneDrive\Рабочий стол\Тема 19 кп1\bin\Debug\Тема 19 кп1.exe
+C:\Users\kab31\OneDrive\Рабочий стол\Тема 19 кп1\bin\Debug\Тема 19 кп1.pdb
+C:\Users\kab31\OneDrive\Рабочий стол\Тема 19 кп1\obj\Debug\Тема 19 кп1.csproj.AssemblyReference.cache
+C:\Users\kab31\OneDrive\Рабочий стол\Тема 19 кп1\obj\Debug\Тема 19 кп1.csproj.CoreCompileInputs.cache
+C:\Users\kab31\OneDrive\Рабочий стол\Тема 19 кп1\obj\Debug\Тема 19 кп1.exe
+C:\Users\kab31\OneDrive\Рабочий стол\Тема 19 кп1\obj\Debug\Тема 19 кп1.pdb
