@@ -1,0 +1,7 @@
+C:\Users\Kab-35-6\source\repos\Т19кп2\bin\Debug\Т19кп2.exe.config
+C:\Users\Kab-35-6\source\repos\Т19кп2\bin\Debug\Т19кп2.exe
+C:\Users\Kab-35-6\source\repos\Т19кп2\bin\Debug\Т19кп2.pdb
+C:\Users\Kab-35-6\source\repos\Т19кп2\obj\Debug\Т19кп2.csproj.AssemblyReference.cache
+C:\Users\Kab-35-6\source\repos\Т19кп2\obj\Debug\Т19кп2.csproj.CoreCompileInputs.cache
+C:\Users\Kab-35-6\source\repos\Т19кп2\obj\Debug\Т19кп2.exe
+C:\Users\Kab-35-6\source\repos\Т19кп2\obj\Debug\Т19кп2.pdb
