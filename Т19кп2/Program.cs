@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Т19кп2.Qest7;
 
 namespace Т19кп2
 {
@@ -31,6 +32,26 @@ namespace Т19кп2
             //Console.WriteLine($"{tVSet.On()}\n{tVSet.Off()}");
             //PersonalComputer PC = new PersonalComputer();
             //Console.WriteLine($"{PC.On()}{PC.Off()}");
+
+            //z7
+            //// Проигрывание
+            //IPlayable playable = new Player();
+            //playable.Play();
+            //playable.Pause();
+            //playable.Stop();
+
+            //// Запись
+            //IRecodable recodable = new Player();
+            //recodable.Recod();
+            //recodable.Pause();
+            //recodable.Stop();
+            //z6
+            //Aa aa = new Aa();
+            //Console.WriteLine("Результат вычитания : " + aa.Sub(5, 3));
+
+            //Ab ab = new Ab();
+            //Console.WriteLine("Результат возведения в квадрат : " + ab.Pow(4));
+            //Console.WriteLine("Результат извлечения квадратного корня : " + ab.Sqrt(9));
 
             Console.Read();
         }

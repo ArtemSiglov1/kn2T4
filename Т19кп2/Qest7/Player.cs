@@ -12,13 +12,14 @@ namespace Т19кп2.Qest7
         {
             Console.WriteLine("Music is play");
         }
-        void IPlayable.Pause() { }
-        void IPlayable.Stop() { }
+        void IPlayable.Pause() { Console.WriteLine("Play music on pause"); }
+        void IPlayable.Stop() { Console.WriteLine("Play music is stop"); }
         public void Recod()
         {
-
+            Console.WriteLine("Music is record");
         }
-        void IRecodable.Pause(){}
-        void IRecodable.Stop() { }
+        void IRecodable.Pause(){ Console.WriteLine("Record music on pause"); }
+        void IRecodable.Stop() { Console.WriteLine("Record music is stop"); }
+       
     }
 }
