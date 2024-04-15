@@ -1,0 +1,7 @@
+C:\Users\kab31\OneDrive\Рабочий стол\ProjectPerson\bin\Debug\ProjectPerson.exe.config
+C:\Users\kab31\OneDrive\Рабочий стол\ProjectPerson\bin\Debug\ProjectPerson.exe
+C:\Users\kab31\OneDrive\Рабочий стол\ProjectPerson\bin\Debug\ProjectPerson.pdb
+C:\Users\kab31\OneDrive\Рабочий стол\ProjectPerson\obj\Debug\ProjectPerson.csproj.AssemblyReference.cache
+C:\Users\kab31\OneDrive\Рабочий стол\ProjectPerson\obj\Debug\ProjectPerson.csproj.CoreCompileInputs.cache
+C:\Users\kab31\OneDrive\Рабочий стол\ProjectPerson\obj\Debug\ProjectPerson.exe
+C:\Users\kab31\OneDrive\Рабочий стол\ProjectPerson\obj\Debug\ProjectPerson.pdb

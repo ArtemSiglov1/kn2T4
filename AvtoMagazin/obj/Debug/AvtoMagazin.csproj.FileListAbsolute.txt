@@ -1,0 +1,7 @@
+C:\Users\kab31\OneDrive\Рабочий стол\AvtoMagazin\bin\Debug\AvtoMagazin.exe.config
+C:\Users\kab31\OneDrive\Рабочий стол\AvtoMagazin\bin\Debug\AvtoMagazin.exe
+C:\Users\kab31\OneDrive\Рабочий стол\AvtoMagazin\bin\Debug\AvtoMagazin.pdb
+C:\Users\kab31\OneDrive\Рабочий стол\AvtoMagazin\obj\Debug\AvtoMagazin.csproj.AssemblyReference.cache
+C:\Users\kab31\OneDrive\Рабочий стол\AvtoMagazin\obj\Debug\AvtoMagazin.csproj.CoreCompileInputs.cache
+C:\Users\kab31\OneDrive\Рабочий стол\AvtoMagazin\obj\Debug\AvtoMagazin.exe
+C:\Users\kab31\OneDrive\Рабочий стол\AvtoMagazin\obj\Debug\AvtoMagazin.pdb
