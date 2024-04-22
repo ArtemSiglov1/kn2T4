@@ -1,0 +1,7 @@
+C:\Users\kab31\OneDrive\Рабочий стол\т20кп1\bin\Debug\т20кп1.exe.config
+C:\Users\kab31\OneDrive\Рабочий стол\т20кп1\bin\Debug\т20кп1.exe
+C:\Users\kab31\OneDrive\Рабочий стол\т20кп1\bin\Debug\т20кп1.pdb
+C:\Users\kab31\OneDrive\Рабочий стол\т20кп1\obj\Debug\т20кп1.csproj.AssemblyReference.cache
+C:\Users\kab31\OneDrive\Рабочий стол\т20кп1\obj\Debug\т20кп1.csproj.CoreCompileInputs.cache
+C:\Users\kab31\OneDrive\Рабочий стол\т20кп1\obj\Debug\т20кп1.exe
+C:\Users\kab31\OneDrive\Рабочий стол\т20кп1\obj\Debug\т20кп1.pdb
