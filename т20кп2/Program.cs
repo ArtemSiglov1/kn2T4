@@ -10,16 +10,18 @@ namespace т20кп2
     {
         static void Main(string[] args)
         {
-            Segment segment = new Segment(Segment.Init(), new Point<dynamic, dynamic>(- 3,-5));
-            Console.WriteLine(segment.ToString());
-            Console.WriteLine(segment.GetLenghtOtr());
-            //Segment<long> segment1 = new Segment<long>(3, 5, -3, -5);
-            //Console.WriteLine(segment1.ToString());
-            //Console.WriteLine(segment1.GetLenghtOtr());
-            //Segment<uint> segment2 = new Segment<uint>(3, 5, 6, 10);
-            //Console.WriteLine(segment2.ToString());
-            //Console.WriteLine(segment2.GetLenghtOtr());
-            Console.Read();
+           
+            Segment segment = new Segment(Segment.Init(),Segment.Init());
+            Console.WriteLine( segment.ToString());
+            Segment segment1 = new Segment(Segment.Init(),  Segment.Init());
+            Console.WriteLine(segment1.ToString());
+            Segment segment2 = new Segment(Segment.Init(), Segment.Init());
+            Console.WriteLine(segment2.ToString());
+            Console.Clear();
+            Triangle triangle = new Triangle(segment,segment1,segment2);
+            Console.WriteLine(triangle.ToString());
+            Console.WriteLine(triangle.Square());
+            Console.ReadLine();
         }
     }
 }
