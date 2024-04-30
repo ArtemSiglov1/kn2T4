@@ -1,0 +1,7 @@
+C:\Users\kab31\OneDrive\Рабочий стол\PodgotovkaExam\bin\Debug\PodgotovkaExam.exe.config
+C:\Users\kab31\OneDrive\Рабочий стол\PodgotovkaExam\bin\Debug\PodgotovkaExam.exe
+C:\Users\kab31\OneDrive\Рабочий стол\PodgotovkaExam\bin\Debug\PodgotovkaExam.pdb
+C:\Users\kab31\OneDrive\Рабочий стол\PodgotovkaExam\obj\Debug\PodgotovkaExam.csproj.AssemblyReference.cache
+C:\Users\kab31\OneDrive\Рабочий стол\PodgotovkaExam\obj\Debug\PodgotovkaExam.csproj.CoreCompileInputs.cache
+C:\Users\kab31\OneDrive\Рабочий стол\PodgotovkaExam\obj\Debug\PodgotovkaExam.exe
+C:\Users\kab31\OneDrive\Рабочий стол\PodgotovkaExam\obj\Debug\PodgotovkaExam.pdb
