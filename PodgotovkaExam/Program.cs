@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,31 +12,11 @@ namespace PodgotovkaExam
     {
         static void Main(string[] args)
         {
-            Price[] prices = new Price[2] { Price.Init(),Price.Init() };
-            Print(prices);
+            Figure figure = new Figure(Point.Init(), Point.Init(), Point.Init());
+            figure.PerimeterCalc();
             Console.ReadLine();
         }
-        public static void Print(Price[] prices)
-        {
-            try
-            {
-                Console.WriteLine("Input NameMagazine:");
-                string nameMagazine = Console.ReadLine();
-                foreach (var price in prices)
-                {
-                    if (price.NameMagazine == nameMagazine)
-                    {
-                        Console.WriteLine(price.ToString());
-                        
-                    }
-                    else { throw new Exception("Такого магазина нет"); }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
-        }
+      
     }
     
 }
