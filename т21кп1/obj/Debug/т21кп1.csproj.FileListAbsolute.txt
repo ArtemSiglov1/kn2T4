@@ -1,0 +1,7 @@
+D:\Макаренко Данил\т21кп1\bin\Debug\т21кп1.exe.config
+D:\Макаренко Данил\т21кп1\bin\Debug\т21кп1.exe
+D:\Макаренко Данил\т21кп1\bin\Debug\т21кп1.pdb
+D:\Макаренко Данил\т21кп1\obj\Debug\т21кп1.csproj.AssemblyReference.cache
+D:\Макаренко Данил\т21кп1\obj\Debug\т21кп1.csproj.CoreCompileInputs.cache
+D:\Макаренко Данил\т21кп1\obj\Debug\т21кп1.exe
+D:\Макаренко Данил\т21кп1\obj\Debug\т21кп1.pdb
