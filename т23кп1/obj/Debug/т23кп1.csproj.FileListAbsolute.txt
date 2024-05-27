@@ -1,0 +1,7 @@
+E:\22.05\т23кп1\bin\Debug\т23кп1.exe.config
+E:\22.05\т23кп1\bin\Debug\т23кп1.exe
+E:\22.05\т23кп1\bin\Debug\т23кп1.pdb
+E:\22.05\т23кп1\obj\Debug\т23кп1.csproj.AssemblyReference.cache
+E:\22.05\т23кп1\obj\Debug\т23кп1.csproj.CoreCompileInputs.cache
+E:\22.05\т23кп1\obj\Debug\т23кп1.exe
+E:\22.05\т23кп1\obj\Debug\т23кп1.pdb
