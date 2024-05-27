@@ -51,20 +51,43 @@ namespace т23кп1
             //Console.WriteLine("Введите у");
             //double y = double.Parse(Console.ReadLine());
             //Console.WriteLine($"Результат = {calc.Calc1(choise, x, y)}");
-            Roles roles = new Roles();
+            //Roles roles = new Roles();
+            //while (true)
+            //{
+            //    foreach (var role in Enum.GetValues(typeof(Roles.UserRole)))
+            //    {
+            //        Console.WriteLine($"{role}");
+            //    }
+            //    Console.Write("\nВведите роль: ");
+            //    string choise = Console.ReadLine();
+            //    roles.Autorizations(choise);
+
+            //    Console.ReadLine();
+            //    Console.Clear();
+            //}
+            Accauntant accauntant = new Accauntant();
             while (true)
             {
-                foreach (var role in Enum.GetValues(typeof(Roles.UserRole)))
+                foreach (var i in Enum.GetValues(typeof(Accauntant.Staffs)))
                 {
-                    Console.WriteLine($"{role}");
+                    Console.WriteLine(i);
                 }
-                Console.Write("\nВведите роль: ");
+                Console.WriteLine("Введите должность сотрудника:");
                 string choise = Console.ReadLine();
-                roles.Autorizations(choise);
-
+                Console.WriteLine("Введите количество отработанных часов:");
+                int hours = int.Parse(Console.ReadLine());
+                if (accauntant.AskForBonus(accauntant.Choise(choise), hours) == true)
+                {
+                    Console.WriteLine("Сотруднику положена премия");
+                }
+                else
+                {
+                    Console.WriteLine("Сотруднику не положена премия");
+                }
                 Console.ReadLine();
                 Console.Clear();
             }
         }
+
     }
 }

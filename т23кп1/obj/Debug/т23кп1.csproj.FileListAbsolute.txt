@@ -5,3 +5,10 @@ E:\22.05\т23кп1\obj\Debug\т23кп1.csproj.AssemblyReference.cache
 E:\22.05\т23кп1\obj\Debug\т23кп1.csproj.CoreCompileInputs.cache
 E:\22.05\т23кп1\obj\Debug\т23кп1.exe
 E:\22.05\т23кп1\obj\Debug\т23кп1.pdb
+C:\Users\Home\Desktop\т23кп1\bin\Debug\т23кп1.exe.config
+C:\Users\Home\Desktop\т23кп1\bin\Debug\т23кп1.exe
+C:\Users\Home\Desktop\т23кп1\bin\Debug\т23кп1.pdb
+C:\Users\Home\Desktop\т23кп1\obj\Debug\т23кп1.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\т23кп1\obj\Debug\т23кп1.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\т23кп1\obj\Debug\т23кп1.exe
+C:\Users\Home\Desktop\т23кп1\obj\Debug\т23кп1.pdb
